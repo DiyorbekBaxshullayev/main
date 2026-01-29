@@ -2,4 +2,8 @@ import random
 
 son = random.randint(int(input("boshlanishi : ")),int(input("tugashi : ")))
 
-print (son)
+son1 = son
+son2 = son
+
+print (son1)
+print (son2)
