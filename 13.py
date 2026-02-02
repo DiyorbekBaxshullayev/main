@@ -1,6 +1,12 @@
-i = 1
+parol = ""
 
-while i<=10:
-    print(i)
-    i+=1
+while parol != "1234":
     
+    parol = input("Parolni kiriting : ")
+
+    if parol != "1234":
+        print ("❌ Parol noto'g'ri, to'g'ri parolni kiriting ")
+
+        
+print("✅ Kirish muvaffaqqiyatli")
+
