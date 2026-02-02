@@ -1,9 +1,8 @@
 import random
 
-son = random.randint(int(input("boshlanishi : ")),int(input("tugashi : ")))
+boshi = int(input("Boshlanishi : "))
+oxiri = int(input("Tugashi : "))
+# son = random.randint(int(input("Boshlanishi : ")), int(input("Tugashi : ")))
 
-son1 = son
-son2 = son
-
-print (son1)
-print (son2)
+for i in random.sample(range(boshi, oxiri + 1), 2):
+    print(i)
